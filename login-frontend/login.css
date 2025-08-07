@@ -1,0 +1,31 @@
+h1{
+    color: rgb(44, 34, 100);
+    text-align: center;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin: auto;
+    border: 3px solid rgb(33, 30, 80);
+    padding: 10px;
+}
+
+div{
+    padding: 15px;
+    width: 40%;
+    margin: auto;
+    
+}
+
+label{
+    font-weight: 700;
+}
+
+button{
+
+    background-color: rgba(189, 195, 207, 0.644);
+}

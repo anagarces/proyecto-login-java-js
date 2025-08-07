@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesion</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body>
+    <h1>Iniciar Sesion</h1>
+
+    <form id="login-form">
+      <div>
+        <label for="usuario">Usuario</label>
+        <input
+          type="text"
+          name="usuario"
+          id="usuario"
+          placeholder="Escribe tu nombre de usuario"
+          r
+          required
+        />
+      </div>
+
+      <div>
+        <label for="pass">Password</label>
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="Escribe tu contrasena"
+          required
+        />
+      </div>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <div id="message"></div>
+  </body>
+</html>
